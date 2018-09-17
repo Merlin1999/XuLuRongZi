@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\bin\Debug\XinLufinancingMainWindow.exe
+C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\bin\Debug\XinLufinancingMainWindow.pdb
+C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow_MarkupCompile.cache
+C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow.g.resources
+C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow.Properties.Resources.resources
+C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow.exe
+C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow.pdb
