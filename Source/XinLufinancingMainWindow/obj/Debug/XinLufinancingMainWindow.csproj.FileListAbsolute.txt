@@ -10,3 +10,5 @@ C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindo
 C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow.csproj.GenerateResource.Cache
 C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow.exe
 C:\Users\Administrator\Desktop\兴泸项目\界面原型\XinLufinancingMainWindow\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow.pdb
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow.exe
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow.pdb

@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxBaseSocket\bin\Debug\FoxBaseSocket.dll
+C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxBaseSocket\bin\Debug\FoxBaseSocket.pdb
+C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxBaseSocket\obj\Debug\FoxBaseSocket.dll
+C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxBaseSocket\obj\Debug\FoxBaseSocket.pdb
+C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxBaseSocket\obj\Debug\FoxBaseSocket.csprojResolveAssemblyReference.cache
