@@ -1,0 +1,13 @@
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DB\bin\x86\Debug\KT.UpdateServer.DB.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DB\bin\x86\Debug\KT.UpdateServer.DB.pdb
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DB\bin\x86\Debug\NHibernate.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DB\bin\x86\Debug\NHibernate.xml
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DB\obj\x86\Debug\KT.UpdateServer.DB.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DB\obj\x86\Debug\KT.UpdateServer.DB.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.DB\obj\x86\Debug\KT.UpdateServer.DB.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.DB\obj\x86\Debug\KT.UpdateServer.DB.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.DB\obj\x86\Debug\KT.UpdateServer.DB.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.DB\bin\x86\Debug\KT.UpdateServer.DB.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.DB\bin\x86\Debug\KT.UpdateServer.DB.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.DB\obj\x86\Debug\KT.UpdateServer.DB.csproj.CopyComplete
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.DB\obj\x86\Debug\KT.UpdateServer.DB.csprojResolveAssemblyReference.cache

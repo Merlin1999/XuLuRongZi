@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "";
+    List<Entity.ShopInfo> list = (List<Entity.ShopInfo>)ViewBag.list;
+}
+@model Entity.ShopInfo
+<table>
+    <tr>
+        <th>商品名称</th>
+        <th>商品价格</th>
+        <th>商品产地</th>
+        <th>商品描述</th>
+    </tr>
+
+    @foreach (var item in list)
+{
+    <tr>
+        <td>@item.Name</td>
+        <td>@item.Price</td>
+        <td>@item.Adress</td>
+        <td>@item.Remark</td>
+    </tr>
+}
+    
+
+</table>
+
+@using (Html.BeginForm("Index", "Home"))
+{
+    <table>
+        <tr>
+            <td>商品名称</td>
+            <td>@Html.TextBoxFor(item=>item.Name)</td>
+            
+        </tr>
+        <tr>
+            <td>商品价格</td>
+            <td>@Html.TextBoxFor(item => item.Price)</td>
+
+        </tr>
+        <tr>
+            <td>商品产地</td>
+            <td>@Html.TextBoxFor(item => item.Adress)</td>
+
+        </tr>
+        <tr>
+            <td>商品描述</td>
+            <td>@Html.TextBoxFor(item => item.Remark)</td>
+
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit"  value="提交"/></td>
+        </tr>
+    </table>
+}

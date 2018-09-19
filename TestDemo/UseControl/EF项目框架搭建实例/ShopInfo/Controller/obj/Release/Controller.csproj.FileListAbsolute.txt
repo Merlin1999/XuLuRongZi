@@ -1,0 +1,13 @@
+E:\材料\EF项目框架搭建实例\ShopInfo\Controller\bin\Release\Controller.dll
+E:\材料\EF项目框架搭建实例\ShopInfo\Controller\bin\Release\Controller.pdb
+E:\材料\EF项目框架搭建实例\ShopInfo\Controller\bin\Release\BLL.dll
+E:\材料\EF项目框架搭建实例\ShopInfo\Controller\bin\Release\Comm.dll
+E:\材料\EF项目框架搭建实例\ShopInfo\Controller\bin\Release\Entity.dll
+E:\材料\EF项目框架搭建实例\ShopInfo\Controller\bin\Release\IBLL.dll
+E:\材料\EF项目框架搭建实例\ShopInfo\Controller\bin\Release\BLL.pdb
+E:\材料\EF项目框架搭建实例\ShopInfo\Controller\bin\Release\Comm.pdb
+E:\材料\EF项目框架搭建实例\ShopInfo\Controller\bin\Release\Entity.pdb
+E:\材料\EF项目框架搭建实例\ShopInfo\Controller\bin\Release\IBLL.pdb
+E:\材料\EF项目框架搭建实例\ShopInfo\Controller\obj\Release\Controller.csprojResolveAssemblyReference.cache
+E:\材料\EF项目框架搭建实例\ShopInfo\Controller\obj\Release\Controller.dll
+E:\材料\EF项目框架搭建实例\ShopInfo\Controller\obj\Release\Controller.pdb

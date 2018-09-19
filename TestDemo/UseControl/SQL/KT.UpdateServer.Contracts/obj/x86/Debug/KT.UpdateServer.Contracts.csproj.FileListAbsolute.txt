@@ -1,0 +1,16 @@
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.Contracts\bin\x86\Debug\KT.UpdateServer.Contracts.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.Contracts\bin\x86\Debug\KT.UpdateServer.Contracts.pdb
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.Contracts\bin\x86\Debug\KT.UpdateServer.DB.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.Contracts\bin\x86\Debug\KT.UpdateServer.DB.pdb
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.Contracts\obj\x86\Debug\KT.UpdateServer.Contracts.csprojResolveAssemblyReference.cache
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.Contracts\obj\x86\Debug\KT.UpdateServer.Contracts.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.Contracts\obj\x86\Debug\KT.UpdateServer.Contracts.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.Contracts\obj\x86\Debug\KT.UpdateServer.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.Contracts\obj\x86\Debug\KT.UpdateServer.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.Contracts\obj\x86\Debug\KT.UpdateServer.Contracts.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.Contracts\obj\x86\Debug\KT.UpdateServer.Contracts.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.Contracts\bin\x86\Debug\KT.UpdateServer.Contracts.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.Contracts\bin\x86\Debug\KT.UpdateServer.Contracts.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.Contracts\bin\x86\Debug\KT.UpdateServer.DB.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.Contracts\bin\x86\Debug\KT.UpdateServer.DB.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.Contracts\obj\x86\Debug\KT.UpdateServer.Contracts.csproj.CopyComplete

@@ -1,0 +1,21 @@
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\x86\Debug\FtpHelper\ftplib.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\x86\Debug\KT.Utility.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\x86\Debug\KT.Utility.pdb
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\x86\Debug\ftplib.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\x86\Debug\Ionic.Zip.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\x86\Debug\Ionic.Zip.pdb
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\x86\Debug\Ionic.Zip.xml
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\obj\x86\Debug\KT.Utility.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\obj\x86\Debug\KT.Utility.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.Utility\bin\x86\Debug\FtpHelper\ftplib.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.Utility\bin\x86\Debug\KT.Utility.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.Utility\bin\x86\Debug\KT.Utility.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.Utility\bin\x86\Debug\ftplib.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.Utility\bin\x86\Debug\Ionic.Zip.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.Utility\bin\x86\Debug\Ionic.Zip.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.Utility\bin\x86\Debug\Ionic.Zip.xml
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.Utility\obj\x86\Debug\KT.Utility.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.Utility\obj\x86\Debug\KT.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.Utility\obj\x86\Debug\KT.Utility.csproj.CopyComplete
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.Utility\obj\x86\Debug\KT.Utility.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.Utility\obj\x86\Debug\KT.Utility.pdb

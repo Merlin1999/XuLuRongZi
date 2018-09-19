@@ -1,0 +1,24 @@
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\KT.UpdateServer.DAL.dll.config
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\KT.UpdateServer.DAL.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\KT.UpdateServer.DAL.pdb
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\EntityFramework.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\EntityFramework.SqlServer.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\Iesi.Collections.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\KT.UpdateServer.Contracts.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\NHibernate.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\System.Data.SQLite.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\System.Data.SQLite.EF6.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\System.Data.SQLite.Linq.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\KT.UpdateServer.DB.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\KT.UpdateServer.Contracts.pdb
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\EntityFramework.xml
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\EntityFramework.SqlServer.xml
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\Iesi.Collections.xml
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\NHibernate.xml
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\System.Data.SQLite.xml
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\bin\x86\Debug\KT.UpdateServer.DB.pdb
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\obj\x86\Debug\KT.UpdateServer.DAL.csprojResolveAssemblyReference.cache
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\obj\x86\Debug\KT.UpdateServer.DAL.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.DAL\obj\x86\Debug\KT.UpdateServer.DAL.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.DAL\obj\x86\Debug\KT.UpdateServer.DAL.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.DAL\obj\x86\Debug\KT.UpdateServer.DAL.pdb

@@ -1,0 +1,27 @@
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.Contracts\bin\Debug\KT.UpdateServer.Contracts.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.Contracts\bin\Debug\KT.UpdateServer.Contracts.pdb
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.Contracts\bin\Debug\KT.UpdateServer.DB.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.Contracts\bin\Debug\KT.UpdateServer.DB.pdb
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.csprojResolveAssemblyReference.cache
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.pdb
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.UpdateServer.Contracts\bin\Debug\KT.UpdateServer.Contracts.dll
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.UpdateServer.Contracts\bin\Debug\KT.UpdateServer.Contracts.pdb
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.UpdateServer.Contracts\bin\Debug\KT.UpdateServer.DB.dll
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.UpdateServer.Contracts\bin\Debug\KT.UpdateServer.DB.pdb
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.csprojResolveAssemblyReference.cache
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.dll
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.dll
+C:\Users\Administrator\Desktop\新建文件夹 (2)\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.pdb
+C:\WORK\OuYang\Work\XuLuRongZi\TestDemo\UseControl\SQL\KT.UpdateServer.Contracts\bin\Debug\KT.UpdateServer.Contracts.dll
+C:\WORK\OuYang\Work\XuLuRongZi\TestDemo\UseControl\SQL\KT.UpdateServer.Contracts\bin\Debug\KT.UpdateServer.Contracts.pdb
+C:\WORK\OuYang\Work\XuLuRongZi\TestDemo\UseControl\SQL\KT.UpdateServer.Contracts\bin\Debug\KT.UpdateServer.DB.dll
+C:\WORK\OuYang\Work\XuLuRongZi\TestDemo\UseControl\SQL\KT.UpdateServer.Contracts\bin\Debug\KT.UpdateServer.DB.pdb
+C:\WORK\OuYang\Work\XuLuRongZi\TestDemo\UseControl\SQL\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.csprojResolveAssemblyReference.cache
+C:\WORK\OuYang\Work\XuLuRongZi\TestDemo\UseControl\SQL\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.csproj.CoreCompileInputs.cache
+C:\WORK\OuYang\Work\XuLuRongZi\TestDemo\UseControl\SQL\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.csproj.CopyComplete
+C:\WORK\OuYang\Work\XuLuRongZi\TestDemo\UseControl\SQL\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.dll
+C:\WORK\OuYang\Work\XuLuRongZi\TestDemo\UseControl\SQL\KT.UpdateServer.Contracts\obj\Debug\KT.UpdateServer.Contracts.pdb
