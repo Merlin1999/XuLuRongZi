@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxBaseSocket", "FoxBaseSoc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxCommunicationBase", "FoxCommunicationBase\FoxCommunicationBase.csproj", "{91CA2411-759D-496F-B3A0-44C0C5036B9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxIocProxy", "FoxIocProxy\FoxIocProxy.csproj", "{A68001A0-0F8E-4D31-9394-38B22E69EAAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxCoreUtility", "FoxCoreUtility\FoxCoreUtility.csproj", "{F807C018-6B8A-4014-8B45-F690FE4F12F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,22 @@ Global
 		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Release|x86.ActiveCfg = Release|x86
 		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Release|x86.Build.0 = Release|x86
+		{A68001A0-0F8E-4D31-9394-38B22E69EAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68001A0-0F8E-4D31-9394-38B22E69EAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68001A0-0F8E-4D31-9394-38B22E69EAAB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A68001A0-0F8E-4D31-9394-38B22E69EAAB}.Debug|x86.Build.0 = Debug|Any CPU
+		{A68001A0-0F8E-4D31-9394-38B22E69EAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68001A0-0F8E-4D31-9394-38B22E69EAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68001A0-0F8E-4D31-9394-38B22E69EAAB}.Release|x86.ActiveCfg = Release|Any CPU
+		{A68001A0-0F8E-4D31-9394-38B22E69EAAB}.Release|x86.Build.0 = Release|Any CPU
+		{F807C018-6B8A-4014-8B45-F690FE4F12F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F807C018-6B8A-4014-8B45-F690FE4F12F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F807C018-6B8A-4014-8B45-F690FE4F12F9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F807C018-6B8A-4014-8B45-F690FE4F12F9}.Debug|x86.Build.0 = Debug|Any CPU
+		{F807C018-6B8A-4014-8B45-F690FE4F12F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F807C018-6B8A-4014-8B45-F690FE4F12F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F807C018-6B8A-4014-8B45-F690FE4F12F9}.Release|x86.ActiveCfg = Release|Any CPU
+		{F807C018-6B8A-4014-8B45-F690FE4F12F9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,32 @@
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\Debug\FtpHelper\ftplib.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\Debug\KT.Utility.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\Debug\KT.Utility.pdb
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\Debug\ftplib.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\Debug\Ionic.Zip.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\Debug\Ionic.Zip.pdb
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\Debug\Ionic.Zip.xml
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\obj\Debug\KT.Utility.dll
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\obj\Debug\KT.Utility.pdb
+F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\obj\Debug\KT.Utility.csprojResolveAssemblyReference.cache
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.Utility\bin\Debug\FtpHelper\ftplib.dll
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.Utility\bin\Debug\KT.Utility.dll
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.Utility\bin\Debug\KT.Utility.pdb
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.Utility\bin\Debug\ftplib.dll
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.Utility\bin\Debug\Ionic.Zip.dll
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.Utility\bin\Debug\Ionic.Zip.pdb
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.Utility\bin\Debug\Ionic.Zip.xml
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.Utility\obj\Debug\KT.Utility.csprojResolveAssemblyReference.cache
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.Utility\obj\Debug\KT.Utility.dll
+F:\OnUpdateProject\OnUpdateProject\MonitorSyUpdateServer\KT.Utility\obj\Debug\KT.Utility.pdb
+F:\新建文件夹 (2)\KT.Utility\bin\Debug\FtpHelper\ftplib.dll
+F:\新建文件夹 (2)\KT.Utility\bin\Debug\KT.Utility.dll
+F:\新建文件夹 (2)\KT.Utility\bin\Debug\KT.Utility.pdb
+F:\新建文件夹 (2)\KT.Utility\bin\Debug\ftplib.dll
+F:\新建文件夹 (2)\KT.Utility\bin\Debug\Ionic.Zip.dll
+F:\新建文件夹 (2)\KT.Utility\bin\Debug\Ionic.Zip.pdb
+F:\新建文件夹 (2)\KT.Utility\bin\Debug\Ionic.Zip.xml
+F:\新建文件夹 (2)\KT.Utility\obj\Debug\KT.Utility.csprojAssemblyReference.cache
+F:\新建文件夹 (2)\KT.Utility\obj\Debug\KT.Utility.csproj.CoreCompileInputs.cache
+F:\新建文件夹 (2)\KT.Utility\obj\Debug\KT.Utility.csproj.CopyComplete
+F:\新建文件夹 (2)\KT.Utility\obj\Debug\KT.Utility.dll
+F:\新建文件夹 (2)\KT.Utility\obj\Debug\KT.Utility.pdb

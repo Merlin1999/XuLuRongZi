@@ -1,0 +1,12 @@
+F:\新建文件夹 (2)\KT.Utility\bin\Debug\FtpHelper\ftplib.dll
+F:\新建文件夹 (2)\KT.Utility\bin\Debug\FoxUtility.dll
+F:\新建文件夹 (2)\KT.Utility\bin\Debug\FoxUtility.pdb
+F:\新建文件夹 (2)\KT.Utility\bin\Debug\ftplib.dll
+F:\新建文件夹 (2)\KT.Utility\bin\Debug\Ionic.Zip.dll
+F:\新建文件夹 (2)\KT.Utility\bin\Debug\Ionic.Zip.pdb
+F:\新建文件夹 (2)\KT.Utility\bin\Debug\Ionic.Zip.xml
+F:\新建文件夹 (2)\KT.Utility\obj\Debug\FoxUtility.csprojAssemblyReference.cache
+F:\新建文件夹 (2)\KT.Utility\obj\Debug\FoxUtility.csproj.CoreCompileInputs.cache
+F:\新建文件夹 (2)\KT.Utility\obj\Debug\FoxUtility.csproj.CopyComplete
+F:\新建文件夹 (2)\KT.Utility\obj\Debug\FoxUtility.dll
+F:\新建文件夹 (2)\KT.Utility\obj\Debug\FoxUtility.pdb

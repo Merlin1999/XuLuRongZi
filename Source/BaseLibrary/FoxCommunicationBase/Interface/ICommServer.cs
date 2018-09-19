@@ -16,8 +16,18 @@ namespace FoxCommunicationBase.Interface
 
         int SendServerPushMsg(List<IJsonObj> msg);
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="msg"></param>
+        /// <param name="ipAndport">格式如：“192.168.1.1：8000”</param>
+        /// <returns></returns>
         int SendMsg(List<IJsonObj> msg, string ipAndport);
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ipAndPort">格式如：“192.168.1.1：8000”</param>
         void CloseClient(string ipAndPort);
     }
 }

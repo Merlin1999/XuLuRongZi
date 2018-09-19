@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\obj\Debug\netcoreapp2.1\FoxCoreUtility.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\obj\Debug\netcoreapp2.1\FoxCoreUtility.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\obj\Debug\netcoreapp2.1\FoxCoreUtility.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\bin\Debug\netcoreapp2.1\FoxCoreUtility.deps.json
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\bin\Debug\netcoreapp2.1\FoxCoreUtility.dll
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\bin\Debug\netcoreapp2.1\FoxCoreUtility.pdb
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\bin\Debug\netcoreapp2.1\ftplib.dll
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\bin\Debug\netcoreapp2.1\Ionic.Zip.dll
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\bin\Debug\netcoreapp2.1\Ionic.Zip.pdb
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\bin\Debug\netcoreapp2.1\Ionic.Zip.xml
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\obj\Debug\netcoreapp2.1\FoxCoreUtility.csproj.CopyComplete
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\obj\Debug\netcoreapp2.1\FoxCoreUtility.dll
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\obj\Debug\netcoreapp2.1\FoxCoreUtility.pdb
