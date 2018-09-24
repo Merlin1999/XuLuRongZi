@@ -1,4 +1,4 @@
-﻿<Window x:Class="XinLufinancingMainWindow.MainWindow"
+﻿<Window xmlns:ButtonEx="clr-namespace:FoxBaseUi.ButtonEx;assembly=FoxBaseUi"  x:Class="XinLufinancingMainWindow.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="900" Width="1920" Topmost="True" ResizeMode="NoResize" WindowStartupLocation="Manual" WindowStyle="None">
@@ -18,15 +18,17 @@
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/top_bg.png" Stretch="UniformToFill"/>
             </Grid.Background>
             <Image HorizontalAlignment="Left" Margin="65,4,0,4" Width="509" Source="pack://siteoforigin:,,,/Resources/title.png" Stretch="UniformToFill" StretchDirection="DownOnly"/>
-            <StackPanel HorizontalAlignment="Right" Margin="0,0,40,0" VerticalAlignment="Center" Width="75" Height="25" Orientation="Horizontal" MouseDown="StackPanel_MouseDown">
+            <ButtonEx:ImageButton Content="退出系统" HorizontalAlignment="Right" Margin="0,0,30,0" VerticalAlignment="Center" ButtonType="LeftIcon" Icon="pack://siteoforigin:,,,/Resources/tuichu.png" Foreground="White" Click="ImageButton_Click"/>
+            <!--<StackPanel HorizontalAlignment="Right" Margin="0,0,40,0" VerticalAlignment="Center" Width="75" Height="25" Orientation="Horizontal" MouseDown="StackPanel_MouseDown">
                 <Image Width="18" Height="18" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Source="pack://siteoforigin:,,,/Resources/tuichu.png"/>
                 <Label Content="退出系统"  Foreground="White"/>
-            </StackPanel>
+            </StackPanel>-->
+            
 
         </Grid>
         <Grid Grid.Row="1" Background="#FF575757">
             <StackPanel Margin="0,30,0,0">
-                <Image Height="80" Margin="2,6" RenderTransformOrigin="1,1"/>
+                <ButtonEx:ImageButton VerticalAlignment="Center" Margin="2" CornerRadius="1" MouseOverBackground="#66007ACC" MousePressedBackground="#B269A6CF" Foreground="White" Content="系统管理" ButtonType="TopIcon" Icon="pack://siteoforigin:,,,/Resources/xitong.png" FontSize="14" />
             </StackPanel>
         </Grid>
         <Grid Grid.Column="1" Margin="0" Grid.Row="1" Background="#FFF6F6F6">

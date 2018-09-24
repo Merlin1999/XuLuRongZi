@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\BaseLibrary\FoxBaseUi\bin\Debug\FoxBaseUi.dll
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\BaseLibrary\FoxBaseUi\bin\Debug\FoxBaseUi.pdb
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\BaseLibrary\FoxBaseUi\obj\Debug\FoxBaseUi.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\BaseLibrary\FoxBaseUi\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\BaseLibrary\FoxBaseUi\obj\Debug\FoxBaseUi_MarkupCompile.cache
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\BaseLibrary\FoxBaseUi\obj\Debug\FoxBaseUi_MarkupCompile.lref
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\BaseLibrary\FoxBaseUi\obj\Debug\Themes\Generic.baml
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\BaseLibrary\FoxBaseUi\obj\Debug\FoxBaseUi.g.resources
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\BaseLibrary\FoxBaseUi\obj\Debug\FoxBaseUi.Properties.Resources.resources
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\BaseLibrary\FoxBaseUi\obj\Debug\FoxBaseUi.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\BaseLibrary\FoxBaseUi\obj\Debug\FoxBaseUi.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\BaseLibrary\FoxBaseUi\obj\Debug\FoxBaseUi.dll
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\BaseLibrary\FoxBaseUi\obj\Debug\FoxBaseUi.pdb

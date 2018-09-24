@@ -69,6 +69,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -179,6 +183,10 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FoxBaseUi\FoxBaseUi.csproj">
+      <Project>{b79db442-8de0-42b0-b6b7-864688f27b5f}</Project>
+      <Name>FoxBaseUi</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FoxIocProxy\FoxIocProxy.csproj">
       <Project>{3db01e12-0bce-48d8-83e9-33a6b5e17ad1}</Project>
       <Name>FoxIocProxy</Name>

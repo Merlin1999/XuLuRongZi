@@ -71,3 +71,5 @@ C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\execute\Deb
 C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow.csproj.CopyComplete
 C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow.exe
 C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow.pdb
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\XinLufinancingMainWindow\obj\Debug\XinLufinancingMainWindow_MarkupCompile.lref
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\XinLufinancingMainWindow\obj\Debug\Themes\Generic.baml

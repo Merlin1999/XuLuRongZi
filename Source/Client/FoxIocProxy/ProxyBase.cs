@@ -19,7 +19,9 @@ namespace FoxIocProxy
         /// <param name="typyName">类型全名（包括命名空间）</param>
         public void InitProxy(string fileName,string typyName)
         {
+            //根据程序集全名加载程序集
             Assembly assembly = AppDomain.CurrentDomain.Load(fileName);
+            //根据类型全名创建新实例
             object temp = assembly.CreateInstance(typyName);
             if (temp is T)
                 tagetObj = temp as T;

@@ -31,7 +31,7 @@ namespace XinLufinancingMainWindow
             
         }
 
-        private void StackPanel_MouseDown(object sender, MouseButtonEventArgs e)
+        private void ImageButton_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
