@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<assembly>
+
+  <!--
+  name为类型别名
+  path为程序集全名（可以用相对路径）
+  typeName为类型的全名
+  isSingle为是否以单例生成
+  -->
+
+  <Object name="" path="" typeName="" isSingle=""></Object>
+</assembly>

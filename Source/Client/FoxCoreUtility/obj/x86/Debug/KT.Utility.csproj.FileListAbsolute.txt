@@ -1,9 +1,0 @@
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\x86\Debug\FtpHelper\ftplib.dll
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\x86\Debug\KT.Utility.dll
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\x86\Debug\KT.Utility.pdb
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\x86\Debug\ftplib.dll
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\x86\Debug\Ionic.Zip.dll
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\x86\Debug\Ionic.Zip.pdb
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\bin\x86\Debug\Ionic.Zip.xml
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\obj\x86\Debug\KT.Utility.dll
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Utility\obj\x86\Debug\KT.Utility.pdb

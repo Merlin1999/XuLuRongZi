@@ -1,17 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\execute\Debug\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="ftplib">
       <HintPath>Dll\ftplib.dll</HintPath>
-      <Private>true</Private>
     </Reference>
     <Reference Include="Ionic.Zip">
-      <HintPath>Ionic.Zip.dll</HintPath>
-      <Private>true</Private>
+      <HintPath>Dll\Ionic.Zip.dll</HintPath>
     </Reference>
   </ItemGroup>
 

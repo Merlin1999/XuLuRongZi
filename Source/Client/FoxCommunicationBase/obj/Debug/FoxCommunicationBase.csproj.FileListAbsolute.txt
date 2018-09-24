@@ -5,3 +5,10 @@ C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxCommunicationBase\bi
 C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxCommunicationBase\bin\Debug\FoxBaseSocket.pdb
 C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxCommunicationBase\obj\Debug\FoxCommunicationBase.dll
 C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxCommunicationBase\obj\Debug\FoxCommunicationBase.pdb
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\execute\Debug\FoxCommunicationBase.dll
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\execute\Debug\FoxCommunicationBase.pdb
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCommunicationBase\obj\Debug\FoxCommunicationBase.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCommunicationBase\obj\Debug\FoxCommunicationBase.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCommunicationBase\obj\Debug\FoxCommunicationBase.csproj.CopyComplete
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCommunicationBase\obj\Debug\FoxCommunicationBase.dll
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCommunicationBase\obj\Debug\FoxCommunicationBase.pdb

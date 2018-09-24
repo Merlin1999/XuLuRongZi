@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="xinglurongziModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="menueditor_info">
+    <Key>
+      <PropertyRef Name="idstr" />
+    </Key>
+    <Property Name="idstr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="project_info">
+    <Key>
+      <PropertyRef Name="idstr" />
+    </Key>
+    <Property Name="idstr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="projectname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="projectdanwei" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="projectzongtou" Type="Decimal" />
+    <Property Name="projectstartdate" Type="DateTime" />
+    <Property Name="projectcompletedate" Type="DateTime" />
+    <Property Name="prpjecttype" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="projectstatus" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="createtime" Type="DateTime" />
+    <Property Name="remark" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="projectzijin_userinfo">
+    <Key>
+      <PropertyRef Name="idstr" />
+    </Key>
+    <Property Name="idstr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="lururen" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="lurudate" Type="DateTime" />
+    <Property Name="projectname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="zhaiwuname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="zhaiwujine" Type="Decimal" />
+    <Property Name="zhifuxingzhi" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="zhifudate" Type="DateTime" />
+    <Property Name="zhifujine" Type="Decimal" />
+    <Property Name="shouhuidate" Type="DateTime" />
+    <Property Name="shouhuijine" Type="Decimal" />
+    <Property Name="remark" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="createtime" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="rongzi_info">
+    <Key>
+      <PropertyRef Name="idstr" />
+    </Key>
+    <Property Name="idstr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="zhaiwunrename" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="zhaiquanrenname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="zhaiquanrentype" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="rongzifangshi" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="zhaiwutype" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="zhaiwuname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="zijinyongtu" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="hetongjine" Type="Decimal" />
+    <Property Name="daoweijineshidian" Type="DateTime" />
+    <Property Name="daoweijine" Type="Decimal" />
+    <Property Name="rongziyueshidian" Type="DateTime" />
+    <Property Name="danbaofangshi" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="lilvtype" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="lilvmiaoshu" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="lilvbaifenbi" Type="Double" />
+    <Property Name="feilv" Type="Double" />
+    <Property Name="qixian" Type="Int32" />
+    <Property Name="qixiri" Type="DateTime" />
+    <Property Name="daoqiri" Type="DateTime" />
+    <Property Name="remark" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="hetongno" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="createtime" Type="DateTime" />
+    <Property Name="rongziyue" Type="Decimal" />
+  </EntityType>
+  <EntityType Name="rongzianpai_info">
+    <Key>
+      <PropertyRef Name="idstr" />
+    </Key>
+    <Property Name="idstr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="luruname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="lurudate" Type="DateTime" />
+    <Property Name="zhaiwuname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="projectname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="anpaijine1" Type="Decimal" />
+    <Property Name="anpaijine2" Type="Decimal" />
+    <Property Name="anpaijine3" Type="Decimal" />
+    <Property Name="anpaidate" Type="DateTime" />
+    <Property Name="yuedate" Type="DateTime" />
+    <Property Name="remark" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="createtime" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="rongzihuanbenfuxi_info">
+    <Key>
+      <PropertyRef Name="idstr" />
+    </Key>
+    <Property Name="idstr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fuxiyear" Type="Int32" />
+    <Property Name="fuxidatetype" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="fuxidate" Type="DateTime" />
+    <Property Name="jixitianshu" Type="Int32" />
+    <Property Name="nianlilv" Type="Double" />
+    <Property Name="feilv" Type="Double" />
+    <Property Name="daozhangjine" Type="Decimal" />
+    <Property Name="huanbenjine" Type="Decimal" />
+    <Property Name="benjinyue" Type="Decimal" />
+    <Property Name="yingjilixi" Type="Decimal" />
+    <Property Name="yingfufeiyong" Type="Decimal" />
+    <Property Name="shifouqingchang" Type="Int32" />
+    <Property Name="remark" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="createtime" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="rongzitiaozheng_info">
+    <Key>
+      <PropertyRef Name="idstr" />
+    </Key>
+    <Property Name="idstr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="luruname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="lurudate" Type="DateTime" />
+    <Property Name="zijinlaiyuan" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="projectnamebefore" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="projectjinebefore" Type="Decimal" />
+    <Property Name="projectnamenow" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="projectjinenow" Type="Decimal" />
+    <Property Name="remark" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="createtime" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="rongzizhihuan_info">
+    <Key>
+      <PropertyRef Name="idstr" />
+    </Key>
+    <Property Name="idstr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="luruname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="lurutime" Type="Time" />
+    <Property Name="zhihuanjine" Type="Decimal" />
+    <Property Name="zhihuantime" Type="Time" />
+    <Property Name="zhihuannamebefore" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="zhihuannamenow" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="remark" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="createtime" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="user_info">
+    <Key>
+      <PropertyRef Name="idstr" />
+    </Key>
+    <Property Name="idstr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rodetype" Type="Int32" />
+    <Property Name="username" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="loginname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="loginpass" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="rolequanxian" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="createtime" Type="DateTime" />
+    <Property Name="updatetime" Type="DateTime" />
+    <Property Name="remark" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="userlog_info">
+    <Key>
+      <PropertyRef Name="idstr" />
+    </Key>
+    <Property Name="idstr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="loginname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="logtype" Type="Int32" />
+    <Property Name="logcontent" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="createtime" Type="DateTime" />
+  </EntityType>
+  <EntityContainer Name="xinglurongziEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="menueditor_info" EntityType="Self.menueditor_info" />
+    <EntitySet Name="project_info" EntityType="Self.project_info" />
+    <EntitySet Name="projectzijin_userinfo" EntityType="Self.projectzijin_userinfo" />
+    <EntitySet Name="rongzi_info" EntityType="Self.rongzi_info" />
+    <EntitySet Name="rongzianpai_info" EntityType="Self.rongzianpai_info" />
+    <EntitySet Name="rongzihuanbenfuxi_info" EntityType="Self.rongzihuanbenfuxi_info" />
+    <EntitySet Name="rongzitiaozheng_info" EntityType="Self.rongzitiaozheng_info" />
+    <EntitySet Name="rongzizhihuan_info" EntityType="Self.rongzizhihuan_info" />
+    <EntitySet Name="user_info" EntityType="Self.user_info" />
+    <EntitySet Name="userlog_info" EntityType="Self.userlog_info" />
+  </EntityContainer>
+</Schema>
