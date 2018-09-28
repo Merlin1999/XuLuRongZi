@@ -52,9 +52,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="ButtonEx\TopImageBtn.cs" />
+    <Compile Include="ControlEx\ImageButton.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\DeletgateCommand.cs" />
+    <Compile Include="Common\DispatcherHelper.cs" />
+    <Compile Include="Common\NotifyPropertyChanged.cs" />
+    <Compile Include="ControlEx\Models\ImageBtnModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -77,5 +81,6 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

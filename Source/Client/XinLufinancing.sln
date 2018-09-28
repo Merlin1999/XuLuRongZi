@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoxCoreUtility", "FoxCoreUt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxBaseUi", "FoxBaseUi\FoxBaseUi.csproj", "{B79DB442-8DE0-42B0-B6B7-864688F27B5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XinLuControlContract", "FoxControlContract\XinLuControlContract.csproj", "{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,18 @@ Global
 		{B79DB442-8DE0-42B0-B6B7-864688F27B5F}.Release|x64.Build.0 = Release|Any CPU
 		{B79DB442-8DE0-42B0-B6B7-864688F27B5F}.Release|x86.ActiveCfg = Release|Any CPU
 		{B79DB442-8DE0-42B0-B6B7-864688F27B5F}.Release|x86.Build.0 = Release|Any CPU
+		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Debug|x64.Build.0 = Debug|Any CPU
+		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Debug|x86.Build.0 = Debug|Any CPU
+		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Release|x64.ActiveCfg = Release|Any CPU
+		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Release|x64.Build.0 = Release|Any CPU
+		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Release|x86.ActiveCfg = Release|Any CPU
+		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

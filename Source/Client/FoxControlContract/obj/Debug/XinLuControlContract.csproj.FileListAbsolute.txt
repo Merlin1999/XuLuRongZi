@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxControlContract\bin\Debug\XinLuControlContract.dll
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxControlContract\bin\Debug\XinLuControlContract.pdb
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxControlContract\obj\Debug\XinLuControlContract.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxControlContract\obj\Debug\XinLuControlContract.dll
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxControlContract\obj\Debug\XinLuControlContract.pdb

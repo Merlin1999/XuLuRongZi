@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using XinLufinancingMainWindow.ViewModels;
 
 namespace XinLufinancingMainWindow
 {
@@ -21,14 +21,21 @@ namespace XinLufinancingMainWindow
     /// </summary>
     public partial class MainWindow : Window
     {
+
+
+        private MainWinVM mainWinVM;
+
+
         public MainWindow()
         {
+            
             InitializeComponent();
             this.Left = 0.0;
             this.Top = 0.0;
             this.Width = System.Windows.SystemParameters.PrimaryScreenWidth;
             this.Height = System.Windows.SystemParameters.PrimaryScreenHeight;
-            
+            mainWinVM = new MainWinVM(ctlPanel);
+            this.DataContext = mainWinVM;
         }
 
         private void ImageButton_Click(object sender, RoutedEventArgs e)

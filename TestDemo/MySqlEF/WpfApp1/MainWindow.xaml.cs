@@ -37,6 +37,7 @@ namespace WpfApp1
             };
             db.t_userinfo.Add(user);
             db.SaveChanges();
+            
         }
     }
 }

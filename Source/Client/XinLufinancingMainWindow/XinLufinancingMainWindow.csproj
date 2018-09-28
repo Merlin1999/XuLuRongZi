@@ -57,6 +57,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Models\FirstLevelBtn.cs" />
+    <Compile Include="Models\MenuIntroductionModel.cs" />
+    <Compile Include="Models\SecondLevelBtn.cs" />
+    <Compile Include="ViewModels\MainWinVM.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -69,10 +73,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Themes\Generic.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -187,11 +187,20 @@
       <Project>{b79db442-8de0-42b0-b6b7-864688f27b5f}</Project>
       <Name>FoxBaseUi</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FoxControlContract\XinLuControlContract.csproj">
+      <Project>{fb9ead06-0ef9-479f-a58a-ffb074edac88}</Project>
+      <Name>XinLuControlContract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FoxCoreUtility\FoxCoreUtility.csproj">
+      <Project>{0295CCC8-EFFC-4E50-AB44-EF3AE005791A}</Project>
+      <Name>FoxCoreUtility</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FoxIocProxy\FoxIocProxy.csproj">
       <Project>{3db01e12-0bce-48d8-83e9-33a6b5e17ad1}</Project>
       <Name>FoxIocProxy</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
