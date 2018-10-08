@@ -1,7 +1,0 @@
-C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxCommunicationBase\obj\Debug\FoxCommunicationBase.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxCommunicationBase\bin\Debug\FoxCommunicationBase.dll
-C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxCommunicationBase\bin\Debug\FoxCommunicationBase.pdb
-C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxCommunicationBase\bin\Debug\FoxBaseSocket.dll
-C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxCommunicationBase\bin\Debug\FoxBaseSocket.pdb
-C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxCommunicationBase\obj\Debug\FoxCommunicationBase.dll
-C:\Users\Administrator\Desktop\兴泸项目\基础类库\FoxCommunicationBase\obj\Debug\FoxCommunicationBase.pdb

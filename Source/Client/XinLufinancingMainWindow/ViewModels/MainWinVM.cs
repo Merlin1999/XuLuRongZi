@@ -112,6 +112,7 @@ namespace XinLufinancingMainWindow.ViewModels
                             BtnModel = new ImageBtnModel() { Content = sub, IsSelected = false, Command = new DelegateCommand(OnSecondLevelBtnClicked) }
                         });
                     }
+                    firstMenuBtns.Add(firstBtn);
                 }
             }
             ////DynamicProxy<IUiModel<Control>>.GetInstance("");
@@ -188,7 +189,7 @@ namespace XinLufinancingMainWindow.ViewModels
                     ctrContent.Children.Clear();
 
                     if(SelectedSecondBtn.SubModel==null)
-                        SelectedSecondBtn.SubModel = SelectedFirstBtn.UiModel.GetSunModelByName(SelectedSecondBtn.BtnModel.Content);
+                        SelectedSecondBtn.SubModel = SelectedFirstBtn.UiModel.GetSubModelByName(SelectedSecondBtn.BtnModel.Content);
 
                     if (SelectedSecondBtn.SubModel != null)
                         ctrContent.Children.Add(SelectedSecondBtn.SubModel);

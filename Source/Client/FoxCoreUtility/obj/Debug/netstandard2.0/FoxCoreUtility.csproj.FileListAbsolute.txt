@@ -14,4 +14,6 @@ C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtil
 C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\obj\Debug\netstandard2.0\FoxCoreUtility.csproj.CopyComplete
 C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\obj\Debug\netstandard2.0\FoxCoreUtility.dll
 C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\obj\Debug\netstandard2.0\FoxCoreUtility.pdb
-C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxCoreUtility\obj\Debug\netstandard2.0\FoxCoreUtility.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\DLLs\netstandard2.0\FoxCoreUtility.deps.json
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\DLLs\netstandard2.0\FoxCoreUtility.dll
+C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\DLLs\netstandard2.0\FoxCoreUtility.pdb

@@ -1,4 +1,0 @@
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Socket\bin\x86\Debug\KT.BaseSocket.dll
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Socket\bin\x86\Debug\KT.BaseSocket.pdb
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Socket\obj\x86\Debug\KT.BaseSocket.dll
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Socket\obj\x86\Debug\KT.BaseSocket.pdb

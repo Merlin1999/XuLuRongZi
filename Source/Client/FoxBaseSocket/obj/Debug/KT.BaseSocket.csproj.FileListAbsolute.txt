@@ -1,5 +1,0 @@
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Socket\bin\Debug\KT.BaseSocket.dll
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Socket\bin\Debug\KT.BaseSocket.pdb
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Socket\obj\Debug\KT.BaseSocket.dll
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Socket\obj\Debug\KT.BaseSocket.pdb
-F:\Projects\升级程序\MonitorSyUpdateServer\KT.Socket\obj\Debug\KT.BaseSocket.csprojResolveAssemblyReference.cache

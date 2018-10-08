@@ -20,7 +20,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\execute\Debug\</OutputPath>
+    <OutputPath>..\..\..\Execute\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -40,6 +40,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -92,7 +94,9 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -180,16 +184,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\FoxBaseUi\FoxBaseUi.csproj">
       <Project>{b79db442-8de0-42b0-b6b7-864688f27b5f}</Project>
       <Name>FoxBaseUi</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FoxControlContract\XinLuControlContract.csproj">
-      <Project>{fb9ead06-0ef9-479f-a58a-ffb074edac88}</Project>
-      <Name>XinLuControlContract</Name>
     </ProjectReference>
     <ProjectReference Include="..\FoxCoreUtility\FoxCoreUtility.csproj">
       <Project>{0295CCC8-EFFC-4E50-AB44-EF3AE005791A}</Project>
@@ -199,8 +196,14 @@
       <Project>{3db01e12-0bce-48d8-83e9-33a6b5e17ad1}</Project>
       <Name>FoxIocProxy</Name>
     </ProjectReference>
+    <ProjectReference Include="..\XinLuControlContract\XinLuControlContract.csproj">
+      <Project>{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}</Project>
+      <Name>XinLuControlContract</Name>
+    </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

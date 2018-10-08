@@ -49,7 +49,7 @@ namespace FoxIocProxy
                     if (node.Attributes["isSingle"].InnerText.Trim().ToUpper() == "TRUE")
                     {
                         //在代理字典里寻找相应代理，没有找到就新实例化一个代理
-                        if (proxyDic[name] == null)
+                        if (!proxyDic.ContainsKey(name))
                         {
                             ProxyBase<T> proxyBase = new ProxyBase<T>();
                             proxyBase.InitProxy(node.Attributes["path"].InnerText, node.Attributes["typeName"].InnerText);

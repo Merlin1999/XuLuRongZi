@@ -5,17 +5,13 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XinLufinancingMainWindow", "XinLufinancingMainWindow\XinLufinancingMainWindow.csproj", "{9173A432-AAF0-44F3-952C-E036EE0B0E89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxBaseSocket", "FoxBaseSocket\FoxBaseSocket.csproj", "{838EBD8B-89F5-4F6A-91DA-6D99720BA0D7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxCommunicationBase", "FoxCommunicationBase\FoxCommunicationBase.csproj", "{91CA2411-759D-496F-B3A0-44C0C5036B9F}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoxIocProxy", "FoxIocProxy\FoxIocProxy.csproj", "{3DB01E12-0BCE-48D8-83E9-33A6B5E17AD1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoxCoreUtility", "FoxCoreUtility\FoxCoreUtility.csproj", "{0295CCC8-EFFC-4E50-AB44-EF3AE005791A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxBaseUi", "FoxBaseUi\FoxBaseUi.csproj", "{B79DB442-8DE0-42B0-B6B7-864688F27B5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XinLuControlContract", "FoxControlContract\XinLuControlContract.csproj", "{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XinLuControlContract", "XinLuControlContract\XinLuControlContract.csproj", "{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,30 +35,6 @@ Global
 		{9173A432-AAF0-44F3-952C-E036EE0B0E89}.Release|x64.Build.0 = Release|Any CPU
 		{9173A432-AAF0-44F3-952C-E036EE0B0E89}.Release|x86.ActiveCfg = Release|Any CPU
 		{9173A432-AAF0-44F3-952C-E036EE0B0E89}.Release|x86.Build.0 = Release|Any CPU
-		{838EBD8B-89F5-4F6A-91DA-6D99720BA0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{838EBD8B-89F5-4F6A-91DA-6D99720BA0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{838EBD8B-89F5-4F6A-91DA-6D99720BA0D7}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{838EBD8B-89F5-4F6A-91DA-6D99720BA0D7}.Debug|x64.Build.0 = Debug|Any CPU
-		{838EBD8B-89F5-4F6A-91DA-6D99720BA0D7}.Debug|x86.ActiveCfg = Debug|x86
-		{838EBD8B-89F5-4F6A-91DA-6D99720BA0D7}.Debug|x86.Build.0 = Debug|x86
-		{838EBD8B-89F5-4F6A-91DA-6D99720BA0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{838EBD8B-89F5-4F6A-91DA-6D99720BA0D7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{838EBD8B-89F5-4F6A-91DA-6D99720BA0D7}.Release|x64.ActiveCfg = Release|Any CPU
-		{838EBD8B-89F5-4F6A-91DA-6D99720BA0D7}.Release|x64.Build.0 = Release|Any CPU
-		{838EBD8B-89F5-4F6A-91DA-6D99720BA0D7}.Release|x86.ActiveCfg = Release|x86
-		{838EBD8B-89F5-4F6A-91DA-6D99720BA0D7}.Release|x86.Build.0 = Release|x86
-		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Debug|x64.Build.0 = Debug|Any CPU
-		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Debug|x86.ActiveCfg = Debug|x86
-		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Debug|x86.Build.0 = Debug|x86
-		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Release|x64.ActiveCfg = Release|Any CPU
-		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Release|x64.Build.0 = Release|Any CPU
-		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Release|x86.ActiveCfg = Release|x86
-		{91CA2411-759D-496F-B3A0-44C0C5036B9F}.Release|x86.Build.0 = Release|x86
 		{3DB01E12-0BCE-48D8-83E9-33A6B5E17AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3DB01E12-0BCE-48D8-83E9-33A6B5E17AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DB01E12-0BCE-48D8-83E9-33A6B5E17AD1}.Debug|x64.ActiveCfg = Debug|Any CPU

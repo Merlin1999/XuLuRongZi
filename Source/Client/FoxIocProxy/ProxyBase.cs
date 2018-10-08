@@ -20,7 +20,9 @@ namespace FoxIocProxy
         public void InitProxy(string fileName,string typyName)
         {
             //根据程序集全名加载程序集
-            Assembly assembly = AppDomain.CurrentDomain.Load(fileName);
+            Assembly assembly = Assembly.LoadFile(fileName);
+
+            //Assembly assembly = AppDomain.CurrentDomain.Load();
             //根据类型全名创建新实例
             object temp = assembly.CreateInstance(typyName);
             if (temp is T)
