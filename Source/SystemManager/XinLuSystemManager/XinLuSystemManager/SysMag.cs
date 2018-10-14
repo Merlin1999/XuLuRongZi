@@ -30,6 +30,9 @@ namespace XinLuSystemManager
             _subModelDic = new Dictionary<string, Control>();
             _modelInfo.SubModelNames.Add("用户管理");
             _subModelDic.Add("用户管理", new UserMagView());
+
+
+           
         }
 
         public ModelInfo GetModelInfo()
@@ -45,6 +48,12 @@ namespace XinLuSystemManager
         public void InitModel(object args)
         {
             
+        }
+
+
+        public void RegisterEventHandler(DllEventHandler ExecuteDllEvent)
+        {
+            StaticGlobal.ExecuteDllEvent = ExecuteDllEvent;
         }
 
         #region IDisposable Support
@@ -80,6 +89,7 @@ namespace XinLuSystemManager
             // TODO: 如果在以上内容中替代了终结器，则取消注释以下行。
             // GC.SuppressFinalize(this);
         }
+
         #endregion
     }
 }

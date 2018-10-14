@@ -52,13 +52,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="Interface\IDialogControl.cs" />
     <Compile Include="ControlEx\ImageButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\DeletgateCommand.cs" />
     <Compile Include="Common\DispatcherHelper.cs" />
     <Compile Include="Common\NotifyPropertyChanged.cs" />
-    <Compile Include="ControlEx\Models\ImageBtnModel.cs" />
+    <Compile Include="Common\Models\CommandModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

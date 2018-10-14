@@ -1,5 +1,5 @@
 ﻿using FoxBaseUi.Common;
-using FoxBaseUi.ControlEx.Models;
+using FoxBaseUi.Common.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,11 +22,11 @@ namespace XinLufinancingMainWindow.Models
         /// <summary>
         /// 按钮控件
         /// </summary>
-        private ImageBtnModel btnModel;
+        private CommandModel btnModel;
 
 
 
-        public ImageBtnModel BtnModel
+        public CommandModel BtnModel
         {
             get => btnModel;
             set

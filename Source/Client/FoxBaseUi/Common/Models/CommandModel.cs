@@ -6,16 +6,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace FoxBaseUi.ControlEx.Models
+namespace FoxBaseUi.Common.Models
 {
     /// <summary>
     /// 含图标的按钮数据模型
     /// </summary>
-    public class ImageBtnModel : NotifyPropertyChanged
+    public class CommandModel : NotifyPropertyChanged
     {
 
         private string content;
-        private bool isSelected;
+        private bool isSelected = false;
+        private bool isEnable = true;
+
         /// <summary>
         /// 
         /// </summary>
@@ -44,5 +46,18 @@ namespace FoxBaseUi.ControlEx.Models
             }
         }
 
+        /// <summary>
+        /// 按钮是否可用
+        /// </summary>
+        public bool IsEnable
+        {
+            get => isEnable;
+            set
+            {
+                if (value == isEnable) return;
+                isEnable = value;
+                RaisePropertyChanged("IsEnable");
+            }
+        }
     }
 }

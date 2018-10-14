@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="StaticGlobal.cs" />
     <Compile Include="Models\NewUserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -74,9 +75,10 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="SysMag.cs" />
+    <Compile Include="ViewModels\AddNewUserViewModel.cs" />
     <Compile Include="ViewModels\UserMagViewModel.cs" />
-    <Compile Include="Views\UserLog.xaml.cs">
-      <DependentUpon>UserLog.xaml</DependentUpon>
+    <Compile Include="Views\AddNewUserView.xaml.cs">
+      <DependentUpon>AddNewUserView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\UserMagView.xaml.cs">
       <DependentUpon>UserMagView.xaml</DependentUpon>
@@ -96,7 +98,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\UserLog.xaml">
+    <Page Include="Views\AddNewUserView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

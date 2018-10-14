@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using XinLuSystemManager.ViewModels;
 
 namespace XinLuSystemManager.Views
 {
@@ -20,9 +22,14 @@ namespace XinLuSystemManager.Views
     /// </summary>
     public partial class UserMagView : UserControl
     {
+
+        private UserMagViewModel userMagVm;
+
         public UserMagView()
         {
             InitializeComponent();
+            userMagVm = new UserMagViewModel();
+            this.DataContext = userMagVm;
         }
     }
 }

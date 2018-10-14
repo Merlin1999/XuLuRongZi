@@ -137,6 +137,8 @@ namespace FoxBaseUi.ControlEx
     {
         //扁平化按钮，无图标
         Normal,
+        //只有图标，无文字
+        OnlyIcon,
         //图标在按钮上方
         TopIcon,
         //图标在按钮左边

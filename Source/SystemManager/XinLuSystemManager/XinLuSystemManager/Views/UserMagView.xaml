@@ -22,35 +22,23 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Border BorderThickness="0" Margin="20,0,40,0" Grid.Row="1" Background="#FFE5E5E5" BorderBrush="#FFE5E5E5"/>
-        <ControlEx:ImageButton HorizontalAlignment="Right" VerticalAlignment="Top" Foreground="#FF333333" Width="80" Height="31" Margin="0,31,40,0">
+        <ControlEx:ImageButton HorizontalAlignment="Right" VerticalAlignment="Top" Foreground="#FF333333" Width="80" Height="31" Margin="0,31,40,0"
+                               Content="{Binding AddUserCmd.Content}" Command="{Binding AddUserCmd.Command}" IsEnabled="{Binding AddUserCmd.IsEnable}">
+            <ControlEx:ImageButton.MousePressedBackground>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/anniu.png" Stretch="Uniform"/>
+            </ControlEx:ImageButton.MousePressedBackground>
+            <ControlEx:ImageButton.MouseOverBackground>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/anniu.png" Stretch="Uniform"/>
+            </ControlEx:ImageButton.MouseOverBackground>
             <ControlEx:ImageButton.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/anniu.png" Stretch="Uniform"/>
             </ControlEx:ImageButton.Background>
         </ControlEx:ImageButton>
         <Label Content="用户管理" HorizontalAlignment="Left" Margin="20,35,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FF333333" Padding="0" ScrollViewer.CanContentScroll="True"/>
-        <StackPanel Margin="0" Grid.Row="2">
-            <StackPanel Height="80" Orientation="Horizontal" Margin="20,6,40,6" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Auto">
-                <Label Content="用户名：" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF333333" FontSize="14"/>
-                <TextBox TextWrapping="Wrap" Text="aaa" Width="150" Foreground="#FF333333" HorizontalAlignment="Center" VerticalAlignment="Center" SelectionBrush="{x:Null}" BorderThickness="1" Background="{x:Null}" VerticalContentAlignment="Center" Margin="0,0,10,0">
-                    <TextBox.BorderBrush>
-                        <LinearGradientBrush EndPoint="0,20" MappingMode="Absolute" StartPoint="0,0">
-                            <GradientStop Color="#FFABADB3" Offset="0.05"/>
-                            <GradientStop Color="#FFE2E3EA" Offset="0.07"/>
-                            <GradientStop Color="#FFE5E5E5" Offset="1"/>
-                        </LinearGradientBrush>
-                    </TextBox.BorderBrush>
-                </TextBox>
-                <Label Content="真实名：" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14"/>
-                <TextBox TextWrapping="Wrap" Text="TextBox" Width="150" Background="{x:Null}" Foreground="#FF333333" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0"/>
-                <Label Content="密码：" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF333333"/>
-                <TextBox TextWrapping="Wrap" Text="TextBox" Width="150" Foreground="#FF333333" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0"/>
-                <CheckBox Content="添加" Foreground="#FF333333" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,4,6,4"/>
-                <CheckBox Content="删除" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF333333" Margin="6"/>
-                <CheckBox Content="修改" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF333333" Margin="6"/>
-                <CheckBox Content="查询" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF333333" Margin="6"/>
-                <ControlEx:ImageButton HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF333333" Width="65" Height="22" Margin="20,0,0,0" Background="#FF006CFF" CornerRadius="2"/>
-            </StackPanel>
-            <DataGrid Background="White" Foreground="#FF333333" AutoGenerateColumns="False" Margin="20,6,40,6"  MinColumnWidth="50" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.IsSharedSizeScope="True" BorderBrush="#FFE5E5E5" HorizontalGridLinesBrush="#FFE5E5E5">
+        <Border Grid.Row="2" Margin="20,20,40,6" CornerRadius="20">
+            <DataGrid Background="White" Foreground="#FF333333" AutoGenerateColumns="False"  
+                      MinColumnWidth="50" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" 
+                      Grid.IsSharedSizeScope="True" BorderBrush="#FFE5E5E5" HorizontalGridLinesBrush="#FFE5E5E5" VerticalAlignment="Top" >
                 <DataGrid.Columns>
                     <DataGridTextColumn  Header="序号" HeaderStyle="{StaticResource FlatColumnHeaderStyle}" Width="Auto"/>
                     <DataGridTextColumn  Header="编码" HeaderStyle="{StaticResource FlatColumnHeaderStyle}" Width="Auto"/>
@@ -60,8 +48,7 @@
                     <DataGridTextColumn  Header="权限" HeaderStyle="{StaticResource FlatColumnHeaderStyle}" Width="2*"/>
                 </DataGrid.Columns>
             </DataGrid>
-        </StackPanel>
-
+        </Border>
 
     </Grid>
 </UserControl>

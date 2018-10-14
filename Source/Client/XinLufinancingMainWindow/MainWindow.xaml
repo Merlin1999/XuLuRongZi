@@ -40,11 +40,8 @@
             </Grid.Background>
             <Image HorizontalAlignment="Left" Margin="65,4,0,4" Width="509" Source="pack://siteoforigin:,,,/Resources/title.png" Stretch="UniformToFill" StretchDirection="DownOnly"/>
             <ControlEx:ImageButton Content="退出系统" HorizontalAlignment="Right" Margin="0,0,30,0" VerticalAlignment="Center" ButtonType="LeftIcon" Icon="pack://siteoforigin:,,,/Resources/tuichu.png" Foreground="White" Click="ImageButton_Click" MouseOverBackground="#481F2F6E" CornerRadius="2"/>
-            <!--<StackPanel HorizontalAlignment="Right" Margin="0,0,40,0" VerticalAlignment="Center" Width="75" Height="25" Orientation="Horizontal" MouseDown="StackPanel_MouseDown">
-                <Image Width="18" Height="18" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Source="pack://siteoforigin:,,,/Resources/tuichu.png"/>
-                <Label Content="退出系统"  Foreground="White"/>
-            </StackPanel>-->
-
+            <ControlEx:ImageButton Content="ImageButton" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,260,0" Foreground="White" FontStyle="Italic" MousePressedBackground="#331F2F6E" MouseOverBackground="#4C1F2F6E"/>
+            <Label Content="，欢迎使用本系统！" HorizontalAlignment="Right" Margin="0,0,150,0" VerticalAlignment="Center" Foreground="White" Padding="0"/>
 
         </Grid>
         <Grid Grid.Row="1" Background="#FF575757">
@@ -69,7 +66,7 @@
                 </Grid.RowDefinitions>
                 <Label Content="{Binding SelectedFirstBtn.Intro.MenuName}" HorizontalAlignment="Left" Margin="8,0,0,0" VerticalAlignment="Bottom" FontSize="24"/>
                 <TextBox Margin="0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding SelectedFirstBtn.Intro.MenuIntro}" 
-                         SelectionBrush="{x:Null}" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFB8B8B8" 
+                         SelectionBrush="{x:Null}" Background="{x:Null}" BorderBrush="#FFE0E0E0" Foreground="#FFB8B8B8" 
                          BorderThickness="0,0,0,1" AllowDrop="False" IsReadOnly="True" IsEnabled="False" />
 
             </Grid>
@@ -85,5 +82,22 @@
 
         </Grid>
         <Grid Grid.Column="2" Margin="20,10,40,0" Grid.Row="1" Name="ctlPanel"/>
+        <Grid Grid.RowSpan="2" Grid.ColumnSpan="3" Background="#7F000000" Visibility="{Binding MsgBoxVisibility}"  >
+
+            <Grid Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0" Grid.RowSpan="2" VerticalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <ControlEx:ImageButton Width="40" HorizontalAlignment="Right" VerticalAlignment="Top" Height="40" 
+                                       Icon="pack://siteoforigin:,,,/Resources/guanbi.png" ButtonType="OnlyIcon" MouseOverBackground="#99000000" 
+                                       CornerRadius="30" BorderBrush="White" BorderThickness="1" Grid.Column="1" Command="{Binding CloseMsgBoxCmd}"/>
+                <Border Grid.Row="1" Margin="0,5,5,0" x:Name="messageBorder" CornerRadius="4"/>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>

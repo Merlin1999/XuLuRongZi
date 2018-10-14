@@ -1,5 +1,7 @@
 ﻿using FoxBaseUi.Common;
-using FoxBaseUi.ControlEx.Models;
+using FoxBaseUi.Common.Models;
+using FoxBaseUi.ControlEx;
+using FoxBaseUi.Interface;
 using FoxCoreUtility.Files;
 using FoxIocProxy;
 using System;
@@ -8,10 +10,13 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using XinLuControlContract;
+using XinLuControlContract.Entity;
 using XinLufinancingMainWindow.Models;
 
 namespace XinLufinancingMainWindow.ViewModels
@@ -22,17 +27,30 @@ namespace XinLufinancingMainWindow.ViewModels
     public class MainWinVM : NotifyPropertyChanged
     {
 
-        ObservableCollection<FirstLevelBtn> firstMenuBtns;
-
-        FirstLevelBtn selectedFirstBtn;
-
-        SecondLevelBtn selectedSecondBtn;
+        #region 界面容器 
 
         /// <summary>
         /// 主界面上的控件容器
         /// </summary>
-        private Panel ctrContent;
+        private readonly Panel ctrContent;
 
+        /// <summary>
+        /// 对话框容器控件
+        /// </summary>
+        private readonly Border dailogBorder;
+
+        private IDialogControl dialog;
+
+        #endregion
+
+        #region 界面上绑定的属性
+
+        /// <summary>
+        /// 退出弹出框事件
+        /// </summary>
+        public ICommand CloseMsgBoxCmd { get; set; }
+
+        ObservableCollection<FirstLevelBtn> firstMenuBtns;
         /// <summary>
         /// 一级菜单按钮集合
         /// </summary>
@@ -42,6 +60,8 @@ namespace XinLufinancingMainWindow.ViewModels
             set => firstMenuBtns = value;
         }
 
+
+        FirstLevelBtn selectedFirstBtn;
         /// <summary>
         /// 被选中的一级菜单按钮
         /// </summary>
@@ -56,6 +76,7 @@ namespace XinLufinancingMainWindow.ViewModels
             }
         }
 
+        SecondLevelBtn selectedSecondBtn;
         /// <summary>
         /// 被选中的二级菜案按钮
         /// </summary>
@@ -70,17 +91,46 @@ namespace XinLufinancingMainWindow.ViewModels
             }
         }
 
+
+
+        Visibility msgBoxVisibility = Visibility.Collapsed;
+        /// <summary>
+        /// 弹出框可见性
+        /// </summary>
+        public Visibility MsgBoxVisibility
+        {
+            get => msgBoxVisibility;
+            set
+            {
+                if (value.Equals(msgBoxVisibility)) return;
+                msgBoxVisibility = value;
+                RaisePropertyChanged("MsgBoxVisibility");
+            }
+        }
+
+        #endregion
+
         /// <summary>
         /// 
         /// </summary>
         /// <param name="ctrContent">控件的容器</param>
-        public MainWinVM(Panel panel)
+        public MainWinVM(Panel panel,Border border)
         {
             ctrContent = panel;
-
+            this.dailogBorder = border;
             firstMenuBtns = new ObservableCollection<FirstLevelBtn>();
+            MsgBoxVisibility = Visibility.Collapsed;
+            CloseMsgBoxCmd = new DelegateCommand(OnCloseMsgBox);
 
+            LoadBLLModels();
 
+        }
+
+        /// <summary>
+        /// 加载业务模块
+        /// </summary>
+        private void LoadBLLModels()
+        {
             //获取程序所在路径
             var path = AppDomain.CurrentDomain.BaseDirectory;
             //获取配置文件中的所有类节点
@@ -90,67 +140,37 @@ namespace XinLufinancingMainWindow.ViewModels
                 //遍历所有节点，找到输入的类别名对应的节点
                 for (int i = 0; i < nodes.Count; i++)
                 {
-                    var node = nodes.Item(i);                  
+                    var node = nodes.Item(i);
                     var firstBtn = new FirstLevelBtn();
                     firstBtn.UiModel = DynamicProxy<IUiModel<Control>>.GetInstance(node.Attributes["name"].InnerText);
                     if (firstBtn.UiModel == null)
                         continue;
                     firstBtn.UiModel.InitModel(null);
-                    firstBtn.BtnModel = new ImageBtnModel()
+                    firstBtn.UiModel.RegisterEventHandler(DealDllEventHandler);
+                    firstBtn.BtnModel = new CommandModel()
                     {
-                        Content = firstBtn.UiModel.GetModelInfo().ModelName, IsSelected = false,
+                        Content = firstBtn.UiModel.GetModelInfo().ModelName,
+                        IsSelected = false,
                         Command = new DelegateCommand(OnFirstLevelBtnClicked)
                     };
                     firstBtn.Intro = new MenuIntroductionModel()
                     { MenuName = firstBtn.BtnModel.Content, MenuIntro = firstBtn.UiModel.GetModelInfo().ModelIntroduction };
                     firstBtn.Icon = firstBtn.UiModel.GetModelInfo().Icon;
-                    firstBtn.SecondLevelBtns = new ObservableCollection<SecondLevelBtn>() ;
-                    foreach(var sub in firstBtn.UiModel.GetModelInfo().SubModelNames)
+                    firstBtn.SecondLevelBtns = new ObservableCollection<SecondLevelBtn>();
+                    foreach (var sub in firstBtn.UiModel.GetModelInfo().SubModelNames)
                     {
                         firstBtn.SecondLevelBtns.Add(new SecondLevelBtn()
                         {
-                            BtnModel = new ImageBtnModel() { Content = sub, IsSelected = false, Command = new DelegateCommand(OnSecondLevelBtnClicked) }
+                            BtnModel = new CommandModel() { Content = sub, IsSelected = false, Command = new DelegateCommand(OnSecondLevelBtnClicked) }
                         });
                     }
                     firstMenuBtns.Add(firstBtn);
                 }
             }
-            ////DynamicProxy<IUiModel<Control>>.GetInstance("");
-            //firstMenuBtns.Add(new FirstLevelBtn()
-            //{
-            //    BtnModel = new ImageBtnModel() { Content = "TEST1", IsSelected = false, Command = new DelegateCommand(OnFirstLevelBtnClicked) },
-            //    Intro = new MenuIntroductionModel() { MenuName = "TEST1", MenuIntro = "this is test1 demo" },
-            //    SecondLevelBtns = new ObservableCollection<SecondLevelBtn>(),
-            //    Icon = new BitmapImage(new Uri(
-            //@"C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\XinLufinancingMainWindow\Resources\xitong.png",
-            //UriKind.RelativeOrAbsolute)),
-            //});
-            //firstMenuBtns.Add(new FirstLevelBtn()
-            //{
-            //    BtnModel = new ImageBtnModel() { Content = "TEST2", IsSelected = false, Command = new DelegateCommand(OnFirstLevelBtnClicked) },
-            //    Intro = new MenuIntroductionModel() { MenuName = "TEST2", MenuIntro = "this is test2 demo" },
-            //    SecondLevelBtns = new ObservableCollection<SecondLevelBtn>(),
-            //    Icon = new BitmapImage(new Uri(
-            //    @"C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\XinLufinancingMainWindow\Resources\danbao.png",
-            //    UriKind.RelativeOrAbsolute)),
-            //});
-            //firstMenuBtns[0].SecondLevelBtns.Add(new SecondLevelBtn()
-            //{
-            //    BtnModel = new ImageBtnModel() { Content = "TEST1SUB1", IsSelected = false, Command = new DelegateCommand(OnSecondLevelBtnClicked) }
-            //});
-            //firstMenuBtns[0].SecondLevelBtns.Add(new SecondLevelBtn()
-            //{
-            //    BtnModel = new ImageBtnModel() { Content = "TEST1SUB2", IsSelected = false, Command = new DelegateCommand(OnSecondLevelBtnClicked) }
-            //});
-            //firstMenuBtns[1].SecondLevelBtns.Add(new SecondLevelBtn()
-            //{
-            //    BtnModel = new ImageBtnModel() { Content = "TEST2SUB1", IsSelected = false, Command = new DelegateCommand(OnSecondLevelBtnClicked) }
-            //});
-            //firstMenuBtns[1].SecondLevelBtns.Add(new SecondLevelBtn()
-            //{
-            //    BtnModel = new ImageBtnModel() { Content = "TEST2SUB2", IsSelected = false, Command = new DelegateCommand(OnSecondLevelBtnClicked) }
-            //});
         }
+
+
+        #region 事件处理
 
         /// <summary>
         /// 一级菜单点击事件
@@ -200,6 +220,57 @@ namespace XinLufinancingMainWindow.ViewModels
                 }
             }
         }
+
+
+        /// <summary>
+        /// 退出弹出框事件
+        /// </summary>
+        /// <param name="sender">按钮的model</param>
+        private void OnCloseMsgBox(object sender)
+        {
+            if (this.dialog != null)
+            {
+                this.dialog.CloseDialog();
+            }
+            DealCloseDialog();
+        }
+
+        private void DealCloseDialog()
+        {
+            MsgBoxVisibility = Visibility.Collapsed;
+            this.dailogBorder.Child = null;
+            this.dialog = null;
+        }
+
+        /// <summary>
+        /// 处理业务模块的提交事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void DealDllEventHandler(object sender, XinLuEventArgs e)
+        {
+            if (e.EventType == DllEventType.ShowDialog)
+            {
+                if (sender is IDialogControl)
+                {
+                    DispatcherHelper.Initialize();
+                    DispatcherHelper.CheckBeginInvokeonUi(new Action(() =>
+                    {
+                        this.dialog = sender as IDialogControl;
+                        this.dialog.RaiseClosed += DealCloseDialog;
+                        this.dailogBorder.Child = this.dialog.GetView();
+                        MsgBoxVisibility = Visibility.Visible;
+                    }));
+
+                }
+            }
+        }
+
+        #endregion
+
+
+
+
 
     }
 }

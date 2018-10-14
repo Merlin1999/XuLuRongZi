@@ -7,6 +7,10 @@ using XinLuControlContract.Entity;
 
 namespace XinLuControlContract
 {
+
+    public delegate void DllEventHandler(object sender, XinLuEventArgs e);
+
+
     /// <summary>
     /// 动态模块接口
     /// </summary>
@@ -29,5 +33,10 @@ namespace XinLuControlContract
         /// <param name="name">子模块名</param>
         /// <returns></returns>
         T GetSubModelByName(string name);
+
+        /// <summary>
+        /// 模块需要主程序执行某些操作时发生
+        /// </summary>
+        void RegisterEventHandler(DllEventHandler ExecuteDllEvent);
     }
 }

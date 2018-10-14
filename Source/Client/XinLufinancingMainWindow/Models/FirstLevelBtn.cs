@@ -1,5 +1,5 @@
 ﻿using FoxBaseUi.Common;
-using FoxBaseUi.ControlEx.Models;
+using FoxBaseUi.Common.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -18,7 +18,7 @@ namespace XinLufinancingMainWindow.Models
     /// </summary>
     public class FirstLevelBtn: NotifyPropertyChanged
     {
-        private ImageBtnModel btnModel;
+        private CommandModel btnModel;
         private MenuIntroductionModel intro;
         private ObservableCollection<SecondLevelBtn> secondLevelBtns;
         private ImageSource icon;
@@ -31,7 +31,7 @@ namespace XinLufinancingMainWindow.Models
         /// <summary>
         /// 按钮控件
         /// </summary>
-        public ImageBtnModel BtnModel
+        public CommandModel BtnModel
         {
             get => btnModel;
             set

@@ -34,13 +34,19 @@ namespace XinLufinancingMainWindow
             this.Top = 0.0;
             this.Width = System.Windows.SystemParameters.PrimaryScreenWidth;
             this.Height = System.Windows.SystemParameters.PrimaryScreenHeight;
-            mainWinVM = new MainWinVM(ctlPanel);
+            mainWinVM = new MainWinVM(ctlPanel,messageBorder);
             this.DataContext = mainWinVM;
         }
 
+        /// <summary>
+        /// 退出系统
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ImageButton_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
+
     }
 }
