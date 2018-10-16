@@ -52,6 +52,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="Common\Converter.cs" />
+    <Compile Include="Common\Models\CheckModel.cs" />
     <Compile Include="Interface\IDialogControl.cs" />
     <Compile Include="ControlEx\ImageButton.cs" />
   </ItemGroup>

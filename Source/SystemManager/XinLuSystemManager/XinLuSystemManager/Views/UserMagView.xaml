@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:XinLuSystemManager.Views"
              xmlns:ControlEx="clr-namespace:FoxBaseUi.ControlEx;assembly=FoxBaseUi"
+             xmlns:Common="clr-namespace:FoxBaseUi.Common;assembly=FoxBaseUi"
              xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero" x:Class="XinLuSystemManager.Views.UserMagView"
              mc:Ignorable="d" 
              d:DesignHeight="455.779" d:DesignWidth="1212.793">
@@ -13,6 +14,9 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="..\Style\UserStyle.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+
+            <Common:BoolToVisibilityConverter x:Key="boolToVisibilityConverter"></Common:BoolToVisibilityConverter>
+
         </ResourceDictionary>
     </UserControl.Resources>
     <Grid Background="White">
@@ -34,18 +38,44 @@
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/anniu.png" Stretch="Uniform"/>
             </ControlEx:ImageButton.Background>
         </ControlEx:ImageButton>
-        <Label Content="用户管理" HorizontalAlignment="Left" Margin="20,35,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FF333333" Padding="0" ScrollViewer.CanContentScroll="True"/>
+        <Label Content="用户管理" HorizontalAlignment="Left" Margin="20,35,0,0" VerticalAlignment="Top" FontSize="18" Padding="0" ScrollViewer.CanContentScroll="True"/>
         <Border Grid.Row="2" Margin="20,20,40,6" CornerRadius="20">
-            <DataGrid Background="White" Foreground="#FF333333" AutoGenerateColumns="False"  
-                      MinColumnWidth="50" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" 
-                      Grid.IsSharedSizeScope="True" BorderBrush="#FFE5E5E5" HorizontalGridLinesBrush="#FFE5E5E5" VerticalAlignment="Top" >
+            <DataGrid x:Name="dataGrid" Background="White"  AutoGenerateColumns="False"  ItemsSource="{Binding UserInfos}"
+                      MinColumnWidth="50" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" SelectedItem="{Binding SelectedUserInfo}"
+                      Grid.IsSharedSizeScope="True"  VerticalAlignment="Top" IsReadOnly="True" CanUserResizeRows="False" ClipboardCopyMode="None" VerticalGridLinesBrush="#FFE5E5E5" SelectionMode="Single" IsSynchronizedWithCurrentItem="True" >
+                <DataGrid.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Foreground="#FF333333"  Command="{Binding DeleteUserCmd.Command}" Header="{Binding DeleteUserCmd.Content}"/>
+                        <MenuItem Foreground="#FF333333" Command="{Binding EditUserCmd.Command}" Header="{Binding EditUserCmd.Content}"/>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
                 <DataGrid.Columns>
-                    <DataGridTextColumn  Header="序号" HeaderStyle="{StaticResource FlatColumnHeaderStyle}" Width="Auto"/>
-                    <DataGridTextColumn  Header="编码" HeaderStyle="{StaticResource FlatColumnHeaderStyle}" Width="Auto"/>
-                    <DataGridTextColumn  Header="用户名" HeaderStyle="{StaticResource FlatColumnHeaderStyle}" Width="*"/>
-                    <DataGridTextColumn  Header="真实名" HeaderStyle="{StaticResource FlatColumnHeaderStyle}" Width="*"/>
-                    <DataGridTextColumn  Header="角色" HeaderStyle="{StaticResource FlatColumnHeaderStyle}" Width="*"/>
-                    <DataGridTextColumn  Header="权限" HeaderStyle="{StaticResource FlatColumnHeaderStyle}" Width="2*"/>
+                    <DataGridTextColumn  Header="序号"
+                                         Width="Auto" IsReadOnly="True" Binding="{Binding Number}" />
+                    <DataGridTextColumn  Header="编码" 
+                                         Width="Auto" IsReadOnly="True" Binding="{Binding PId}"/>
+                    <DataGridTextColumn  Header="用户名" 
+                                         Width="*" IsReadOnly="True" Binding="{Binding UserName}"/>
+                    <DataGridTextColumn  Header="真实名" 
+                                         Width="*" IsReadOnly="True" Binding="{Binding RealName}"/>
+                    <DataGridTextColumn  Header="角色" 
+                                         Width="*" IsReadOnly="True" Binding="{Binding Role}"/>
+                    <DataGridTemplateColumn  Header="权限"  Width="2*" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="0">
+                                    <Label Content="添加" HorizontalAlignment="Center" Margin="20,0,20,0" VerticalAlignment="Center" 
+                                               Visibility="{Binding CanCreate, Converter={StaticResource boolToVisibilityConverter}}"  />
+                                    <Label Content="编辑" HorizontalAlignment="Center" Margin="20,0,20,0" VerticalAlignment="Center" 
+                                               Visibility="{Binding CanEdit, Converter={StaticResource boolToVisibilityConverter}}"  />
+                                    <Label Content="删除" HorizontalAlignment="Center" Margin="20,0,20,0" VerticalAlignment="Center" 
+                                               Visibility="{Binding CanDelete, Converter={StaticResource boolToVisibilityConverter}}"  />
+                                    <Label Content="查询" HorizontalAlignment="Center" Margin="20,0,20,0" VerticalAlignment="Center" 
+                                               Visibility="{Binding CanQuery, Converter={StaticResource boolToVisibilityConverter}}"  />
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
                 </DataGrid.Columns>
             </DataGrid>
         </Border>

@@ -1,8 +1,0 @@
-﻿<?xml version="1.0"?>
-<Peojects>
-
-  <!--
-  name为项目要加载的模块的类型别名
-  -->
-  <Peoject name="XinLuSysMag" />
-</Peojects>

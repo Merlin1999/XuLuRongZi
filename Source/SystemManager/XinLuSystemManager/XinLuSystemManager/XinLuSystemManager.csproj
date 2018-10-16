@@ -36,6 +36,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\DLLs\FoxBaseUi.dll</HintPath>
     </Reference>
+    <Reference Include="OYHttpClient">
+      <HintPath>..\..\..\..\DLLs\OYHttpClient.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationFramework.Aero" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -60,7 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="StaticGlobal.cs" />
-    <Compile Include="Models\NewUserModel.cs" />
+    <Compile Include="Models\UserInfoModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

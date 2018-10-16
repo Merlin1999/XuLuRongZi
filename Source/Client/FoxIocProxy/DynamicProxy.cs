@@ -26,7 +26,7 @@ namespace FoxIocProxy
             //获取程序所在路径
             var path = AppDomain.CurrentDomain.BaseDirectory;
             //获取配置文件中的所有类节点
-            var nodes = XmlHelper.GetXmlNodeListByXpath(path+@"\Config\FoxIocProxy.cfg.xml", "//assembly//Object");
+            var nodes = XmlHelper.GetXmlNodeListByXpath(path+@"\Config\FoxIocProxy.cfg", "//assembly//Object");
 
             if (nodes != null)
             {

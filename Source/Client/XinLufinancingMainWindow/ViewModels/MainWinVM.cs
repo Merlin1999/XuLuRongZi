@@ -134,7 +134,7 @@ namespace XinLufinancingMainWindow.ViewModels
             //获取程序所在路径
             var path = AppDomain.CurrentDomain.BaseDirectory;
             //获取配置文件中的所有类节点
-            var nodes = XmlHelper.GetXmlNodeListByXpath(path + @"\Config\XinluApp.cfg.xml", "//Peojects//Peoject");
+            var nodes = XmlHelper.GetXmlNodeListByXpath(path + @"\Config\XinluApp.cfg", "//Peojects//Peoject");
             if (nodes != null)
             {
                 //遍历所有节点，找到输入的类别名对应的节点

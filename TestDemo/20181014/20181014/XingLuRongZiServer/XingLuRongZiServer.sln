@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XingLuRongZiServer", "XingLuRongZiServer\XingLuRongZiServer.csproj", "{D249DA7E-7EED-47EC-8E3C-BC619CF76761}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D249DA7E-7EED-47EC-8E3C-BC619CF76761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D249DA7E-7EED-47EC-8E3C-BC619CF76761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D249DA7E-7EED-47EC-8E3C-BC619CF76761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D249DA7E-7EED-47EC-8E3C-BC619CF76761}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21103B36-C59E-48F8-8EB3-5920A75B6054}
+	EndGlobalSection
+EndGlobal

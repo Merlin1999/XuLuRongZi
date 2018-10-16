@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:XinLuSystemManager.Views"
              xmlns:ControlEx="clr-namespace:FoxBaseUi.ControlEx;assembly=FoxBaseUi"
+             xmlns:Common="clr-namespace:FoxBaseUi.Common;assembly=FoxBaseUi"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800" Width="800" Height="450">
     <UserControl.Resources>
@@ -12,6 +13,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="..\Style\UserStyle.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+            <Common:BoolToVisibilityConverter x:Key="boolToVisibilityConverter"></Common:BoolToVisibilityConverter>
         </ResourceDictionary>
     </UserControl.Resources>
     <Grid>
@@ -21,7 +23,7 @@
         </Grid.RowDefinitions>
 
         <Border BorderThickness="1" Margin="0" Background="#FF357DDE">
-            <Label Content="添加用户" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Foreground="White" FontSize="24" RenderTransformOrigin="-0.331,1.903"/>
+            <Label Content="{Binding DialogName}" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Foreground="White" FontSize="24" RenderTransformOrigin="-0.331,1.903"/>
         </Border>
         <Grid Grid.Row="1" Background="White">
             <ControlEx:ImageButton HorizontalAlignment="Left" VerticalAlignment="Bottom" Foreground="White" Width="100" Height="40" Margin="250,0,0,40" 
@@ -32,16 +34,18 @@
                                    Background="#FF207EFF" CornerRadius="20"  Content="{Binding ConfirmCommand.Content}" FontSize="14" MousePressedBackground="#FF0D64DA" 
                                    Command="{Binding ConfirmCommand.Command}" IsEnabled="{Binding ConfirmCommand.IsEnable}"/>
             <Label Content="用户名：" HorizontalAlignment="Left" Margin="200,30,0,0" VerticalAlignment="Top" Foreground="#FF333333" FontSize="14" RenderTransformOrigin="-0.242,0.396"/>
-            <TextBox HorizontalAlignment="Right" Height="30" Margin="0,30,180,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="349" Style="{StaticResource FlatTextBoxStyle}" VerticalContentAlignment="Center" />
+            <TextBox HorizontalAlignment="Right" Height="30" Margin="0,30,180,0" TextWrapping="Wrap" Text="{Binding UserInfo.UserName}" VerticalAlignment="Top" Width="349"  VerticalContentAlignment="Center" />
             <Label Content="权限：" HorizontalAlignment="Left" Margin="200,221,0,0" VerticalAlignment="Top" Foreground="#FF333333" FontSize="14" RenderTransformOrigin="-0.242,0.396"/>
-            <Label Content="密码：" HorizontalAlignment="Left" Margin="200,157,0,0" VerticalAlignment="Top" Foreground="#FF333333" FontSize="14" RenderTransformOrigin="-0.242,0.396"/>
-            <TextBox HorizontalAlignment="Right" Height="30" Margin="0,157,180,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="349" Style="{StaticResource FlatTextBoxStyle}" VerticalContentAlignment="Center" />
+            <Label Content="密码：" HorizontalAlignment="Left" Margin="200,157,0,0" VerticalAlignment="Top" Foreground="#FF333333" FontSize="14" 
+                   RenderTransformOrigin="-0.242,0.396" Visibility="{Binding IsAddMode, Converter={StaticResource boolToVisibilityConverter}}"/>
+            <TextBox HorizontalAlignment="Right" Height="30" Margin="0,157,180,0" TextWrapping="Wrap" Text="{Binding UserInfo.PassWord}" VerticalAlignment="Top" Width="349"  
+                     VerticalContentAlignment="Center" Visibility="{Binding IsAddMode, Converter={StaticResource boolToVisibilityConverter}}" />
             <Label Content="真实名：" HorizontalAlignment="Left" Margin="200,92,0,0" VerticalAlignment="Top" Foreground="#FF333333" FontSize="14" RenderTransformOrigin="-0.242,0.396"/>
-            <TextBox HorizontalAlignment="Right" Height="30" Margin="0,92,180,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="349" Style="{StaticResource FlatTextBoxStyle}" VerticalContentAlignment="Center" />
-            <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="261,227,0,0" VerticalAlignment="Top" Style="{StaticResource FlatCheckBoxStyle}"/>
-            <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="558,228,0,0" VerticalAlignment="Top" Style="{StaticResource FlatCheckBoxStyle}"/>
-            <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="458,228,0,0" VerticalAlignment="Top" Style="{StaticResource FlatCheckBoxStyle}" RenderTransformOrigin="0.491,0.602"/>
-            <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="361,227,0,0" VerticalAlignment="Top" Style="{StaticResource FlatCheckBoxStyle}" RenderTransformOrigin="0.419,0.421"/>
+            <TextBox HorizontalAlignment="Right" Height="30" Margin="0,92,180,0" TextWrapping="Wrap" Text="{Binding UserInfo.RealName}" VerticalAlignment="Top" Width="349"  VerticalContentAlignment="Center" />
+            <CheckBox Content="添加" HorizontalAlignment="Left" Margin="280,227,0,0" VerticalAlignment="Top" IsChecked="{Binding UserInfo.CanCreate}"/>
+            <CheckBox Content="查询" HorizontalAlignment="Left" Margin="565,227,0,0" VerticalAlignment="Top" IsChecked="{Binding UserInfo.CanQuery}"/>
+            <CheckBox Content="删除" HorizontalAlignment="Left" Margin="473,227,0,0" VerticalAlignment="Top" IsChecked="{Binding UserInfo.CanDelete}"/>
+            <CheckBox Content="修改" HorizontalAlignment="Left" Margin="377,227,0,0" VerticalAlignment="Top" IsChecked="{Binding UserInfo.CanEdit}"/>
         </Grid>
 
     </Grid>

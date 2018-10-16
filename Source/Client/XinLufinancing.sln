@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxBaseUi", "FoxBaseUi\FoxB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XinLuControlContract", "XinLuControlContract\XinLuControlContract.csproj", "{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OYHttpClient", "OYHttpClient\OYHttpClient.csproj", "{0E171CCD-5689-49C5-B3D6-9771E335808F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Release|x64.Build.0 = Release|Any CPU
 		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Release|x86.ActiveCfg = Release|Any CPU
 		{FB9EAD06-0EF9-479F-A58A-FFB074EDAC88}.Release|x86.Build.0 = Release|Any CPU
+		{0E171CCD-5689-49C5-B3D6-9771E335808F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E171CCD-5689-49C5-B3D6-9771E335808F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E171CCD-5689-49C5-B3D6-9771E335808F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0E171CCD-5689-49C5-B3D6-9771E335808F}.Debug|x64.Build.0 = Debug|Any CPU
+		{0E171CCD-5689-49C5-B3D6-9771E335808F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0E171CCD-5689-49C5-B3D6-9771E335808F}.Debug|x86.Build.0 = Debug|Any CPU
+		{0E171CCD-5689-49C5-B3D6-9771E335808F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E171CCD-5689-49C5-B3D6-9771E335808F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E171CCD-5689-49C5-B3D6-9771E335808F}.Release|x64.ActiveCfg = Release|Any CPU
+		{0E171CCD-5689-49C5-B3D6-9771E335808F}.Release|x64.Build.0 = Release|Any CPU
+		{0E171CCD-5689-49C5-B3D6-9771E335808F}.Release|x86.ActiveCfg = Release|Any CPU
+		{0E171CCD-5689-49C5-B3D6-9771E335808F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
