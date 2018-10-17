@@ -52,7 +52,9 @@ namespace FoxIocProxy
                         if (!proxyDic.ContainsKey(name))
                         {
                             ProxyBase<T> proxyBase = new ProxyBase<T>();
-                            proxyBase.InitProxy(node.Attributes["path"].InnerText, node.Attributes["typeName"].InnerText);
+                            
+
+                            proxyBase.InitProxy(path+node.Attributes["path"].InnerText, node.Attributes["typeName"].InnerText);
                             proxyDic.Add(name, proxyBase);
                         }
                         return proxyDic[name].Instance;

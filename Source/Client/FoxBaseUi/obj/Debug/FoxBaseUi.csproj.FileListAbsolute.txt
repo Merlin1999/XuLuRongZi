@@ -25,4 +25,3 @@ C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxBaseUi\o
 C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxBaseUi\obj\Debug\FoxBaseUi.pdb
 C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\DLLs\FoxBaseUi.dll
 C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\DLLs\FoxBaseUi.pdb
-C:\Users\Administrator\Desktop\兴泸项目\XuLuRongZi\Source\Client\FoxBaseUi\obj\Debug\FoxBaseUi.csprojAssemblyReference.cache
