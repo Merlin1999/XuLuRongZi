@@ -9,7 +9,7 @@ using static OYHttpClient.Entity.XLRZData;
 
 namespace OYHttpClient
 {
-    class HttpJsonProjectInfo
+    public class HttpJsonProjectInfo
     {
         static public bool AddProjectInfo(string szhaiwuname, string szhaiwutype,
             string szhaiwunrename,

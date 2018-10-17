@@ -13,7 +13,11 @@ namespace XinLuSystemManager
         /// </summary>
         public static XinLuControlContract.DllEventHandler ExecuteDllEvent;
 
-
+        /// <summary>
+        /// 执行通知外部模块的事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
         public static void RunExecuteDllEvent(object sender, XinLuControlContract.Entity.XinLuEventArgs args)
         {
             if (ExecuteDllEvent != null)

@@ -1,5 +1,6 @@
 ﻿using FoxBaseUi.Common;
 using FoxBaseUi.Common.Models;
+using OYHttpClient;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,19 +14,42 @@ namespace XinLuSystemManager.ViewModels
 {
     public class UserMagViewModel: NotifyPropertyChanged
     {
-
+        /// <summary>
+        /// 添加按钮
+        /// </summary>
         public CommandModel AddUserCmd { get; private set; }
+
+        /// <summary>
+        /// 删除按钮
+        /// </summary>
         public CommandModel DeleteUserCmd { get; private set; }
+
+        /// <summary>
+        /// 编辑按钮
+        /// </summary>
         public CommandModel EditUserCmd { get; private set; }
 
+        /// <summary>
+        /// 用户添加/编辑对话框数据模型
+        /// </summary>
         private AddNewUserViewModel addNewUserVm;
 
+        /// <summary>
+        ///  用户添加/编辑对话框
+        /// </summary>
         private AddNewUserView addUserView;
 
+
+        /// <summary>
+        /// 用户信息列表
+        /// </summary>
         public ObservableCollection<UserInfoModel> UserInfos { get; private set; }
 
 
         private UserInfoModel selectedUserInfo;
+        /// <summary>
+        /// 选中的用户
+        /// </summary>
         public UserInfoModel SelectedUserInfo
         {
             get => selectedUserInfo;
@@ -40,6 +64,9 @@ namespace XinLuSystemManager.ViewModels
 
         public  UserMagViewModel()
         {
+
+            //HttpJsonUserInfo
+
             AddUserCmd = new CommandModel() {
                 Command = new DelegateCommand(OnAddBtnClicked),
                 Content ="+ 添加",
@@ -81,6 +108,10 @@ namespace XinLuSystemManager.ViewModels
             });
         }
 
+        /// <summary>
+        /// 点击添加按钮
+        /// </summary>
+        /// <param name="sender"></param>
         private void OnAddBtnClicked(object sender)
         {
             this.addNewUserVm.DialogName = "添加用户";
@@ -88,11 +119,20 @@ namespace XinLuSystemManager.ViewModels
             this.addNewUserVm.Show(ShowDailogCallBack);
         }
 
+        /// <summary>
+        /// 点击删除
+        /// </summary>
+        /// <param name="sender"></param>
         private void OnDeleteClicked(object sender)
         {
             
         }
 
+
+        /// <summary>
+        /// 点击编辑
+        /// </summary>
+        /// <param name="sender"></param>
         private void OnAddEditClicked(object sender)
         {
             this.addNewUserVm.DialogName = "修改用户信息";
@@ -101,7 +141,10 @@ namespace XinLuSystemManager.ViewModels
             this.addNewUserVm.Show(ShowDailogCallBack);
         }
 
-
+        /// <summary>
+        ///  用户添加/编辑对话框关闭的回调
+        /// </summary>
+        /// <param name="result">是否保存操作</param>
         private void ShowDailogCallBack(bool result)
         {
 

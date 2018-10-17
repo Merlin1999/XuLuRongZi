@@ -6,7 +6,7 @@ using static OYHttpClient.Entity.XLRZData;
 
 namespace OYHttpClient
 {
-    class HttpJsonUserInfo
+    public class HttpJsonUserInfo
     {
         static public List<user_info> GetUserInfos()
         {

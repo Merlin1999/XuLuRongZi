@@ -9,7 +9,8 @@ using static OYHttpClient.Entity.XLRZData;
 
 namespace OYHttpClient
 {
-    class HttpJsonUserLogInfo
+
+    public class HttpJsonUserLogInfo
     {
         static public bool AddUserLogInfo(string sloginname, string slogtype, string slogcontent)
         {

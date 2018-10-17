@@ -9,7 +9,7 @@ using static OYHttpClient.Entity.XLRZData;
 
 namespace OYHttpClient
 {
-    class HttpJsonCanShuInfo
+    public class HttpJsonCanShuInfo
     {
         static public bool AddCanShuInfo(string scanshutype)
         {
