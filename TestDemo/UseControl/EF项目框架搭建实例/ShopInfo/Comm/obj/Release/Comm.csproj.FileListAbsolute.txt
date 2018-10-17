@@ -1,4 +1,0 @@
-E:\材料\EF项目框架搭建实例\ShopInfo\Comm\bin\Release\Comm.dll
-E:\材料\EF项目框架搭建实例\ShopInfo\Comm\bin\Release\Comm.pdb
-E:\材料\EF项目框架搭建实例\ShopInfo\Comm\obj\Release\Comm.dll
-E:\材料\EF项目框架搭建实例\ShopInfo\Comm\obj\Release\Comm.pdb

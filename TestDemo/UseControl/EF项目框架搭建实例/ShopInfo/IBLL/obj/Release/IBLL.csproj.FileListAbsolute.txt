@@ -1,4 +1,0 @@
-E:\材料\EF项目框架搭建实例\ShopInfo\IBLL\bin\Release\IBLL.dll
-E:\材料\EF项目框架搭建实例\ShopInfo\IBLL\bin\Release\IBLL.pdb
-E:\材料\EF项目框架搭建实例\ShopInfo\IBLL\obj\Release\IBLL.dll
-E:\材料\EF项目框架搭建实例\ShopInfo\IBLL\obj\Release\IBLL.pdb
